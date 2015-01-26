@@ -5,7 +5,7 @@ import org.scalatest.FunSuite
 class FunctionTypeQueueTest extends FunSuite {
 
   // TODO: 時間計測クラスを実装する。
-  
+
   test("FunctionTypeQueueTest.") {
     def create(elems: List[Int]): SlowAppendQueue[Int] = {
       elems.length match {
