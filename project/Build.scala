@@ -3,7 +3,8 @@ import sbt.Keys._
 
 object Dependencies {
   val scalatest="org.scalatest" % "scalatest_2.11" % "2.2.1" % "test"
-  val all = Seq(scalatest)
+  val utilCore="com.twitter" % "util-core_2.11" % "6.23.0"
+  val all = Seq(scalatest, utilCore)
 }
 
 object Resolvers {
